@@ -32,6 +32,9 @@
   }
   header{
     background-color: var(--purple300);
+    position: sticky;
+    top:0;
+    z-index: 100;
   }
   nav{
     display:flex;
@@ -58,4 +61,26 @@
   nav ul li:hover{
     border-bottom: 2px solid white;
     transition: 0.2s ease-in;
+  }
+
+  .hero-section{
+    background-image: url(assets/hero_image.png);
+    height:100vh;
+    display:grid;
+    color:white;
+    place-items: center;
+    text-align: center;
+  }
+  .hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
+  .hero-section h1{
+    font-size: 96px;
+
+  }
+  .hero-section h3{
+    font-size: 32px;
+    
   }
