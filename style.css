@@ -142,4 +142,28 @@
     margin-bottom: 50px;
   }
   /* Video Section */
+  .video-section{
+    background-image:url(assets/video.png);
+    min-height: 800px;
+    display:grid;
+    place-items: center;
+    color:white;
+    text-align: center;
+  }
+
+  .video-section .container{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top: -200px;
+  }
+
+  .hero-section,
+  .video-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
   
